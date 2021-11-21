@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.place-holder{
+    background-color: tomato;
+}
+.header{
+    width: 100%;
+    height: 64px;
+    background-color: #333545;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 53px;
+}
+.search{
+    width: 18px;
+   
+}
+.search-bar{
+    background-color: snow;
+    width: 535px;
+    height: 36px;
+    border-radius: 4px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.search-bar input{
+    border: none;
+   width: 493px;
+   height: 16px;
+   font-size: 14px;
+   color: #999999;
+   font-family: 'roboto',sans-serif;
+   margin-left: 10px;
+}
+.options{
+    width: 250px;
+    height: 50px;
+     margin-left: 270px;
+     display: flex;
+     align-items: center;
+     
+}
+.kochi {
+    
+    width: 113px;
+    height: 50px;
+    display: flex;  
+    align-items: center;
+}
+.kochi img{
+    width: 53px;
+    height: 22px; 
+    margin-left: 43px;
+    cursor: pointer;
+}
+
+.options .sign-btn{
+    border: none;
+    background-color: #F84464;
+    font-size: 12px;
+    border-radius: 3px;
+    width: 67px;
+    height: 27px;
+    cursor: pointer;
+}
+.options .menu-bar{
+    width: 27px;
+    height: 27px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+/*------------------sub-header---------*/
+.sub-header{
+    width: 100%;
+    height: 40px;
+    background-color: #1F2533;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.sub-header .main-sub{
+    /* background-color: khaki; */
+    width: 100%;
+    height: 40px;
+   
+}
+.main-sub{
+    display: flex;
+}
+.main-sub .sub1{
+    width: 37%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+span{
+    font-size: 14px;
+    color: #cccccc;
+    font-family: sans-serif;
+    cursor: pointer;  
+}
+ span:hover{
+    color: white;
+}
+.no-need{
+    width: 38%;
+    height: 100%;
+}
+.sub2 {
+    width: 25%;
+    height: 100%;
+    
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+/*----------Banner-------*/
+.banner img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/*--------------main-------*/
+
+.main{
+    width: 100%;
+    height: 505px;
+    background-color:#eaebeb;   
+}
+
+.heading{
+    width: 100%;
+    height: 65px;
+    display: flex;   
+}
+.left-side{
+    width:50%;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    /* padding-left: 30px; */
+}
+.right-side{
+    width: 50%;  
+}
+.right-side p{
+    font-size: 15px;
+    color:  #Dc3558;
+    font-family: Roboto;
+    text-align: right;
+    padding-right: 62px;
+    padding-top: 39px;
+    cursor: pointer;
+    font-weight: normal;
+
+}
+.left-side p{
+    padding-left: 60PX;
+    padding-top: 30px;
+    
+}
+.Movies img{
+    width: 212.5px;
+    height: 361.3px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.Movies{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mov-description p{
+   font-size: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   color: rgb(34, 34, 34);
+   padding-top: 8px;
+
+}
+#jonor{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #666666;
+}
+
+/*----------sub-adv-----*/
+
+.sub-adv img{
+    width: 100%;
+   
+}
+.sub-adv{
+    padding: 58px;
+    width: 100%;
+    height: 195.2px;
+    background-color:#eaebeb; 
+}
+/*------------entertainment-------*/
+
+.entertainment{
+    width: 100%;
+    height: 344.6px;
+    background-color: #Dc3558;
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color:#eaebeb; 
+}
+.ent-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.entertainment-heading{
+    width: 100%;
+    height: 28.08px;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+   
+}
+.entertainment div img{
+    width: 212.28px;
+    height: 212.28px;
+    border-radius: 6px;
+}
+
+/*-----------advertisement---*/
+.adv2 img{
+    width: 100%;
+    height: 103.3px;
+}
+.adv2{
+    width: 100%;
+    height: 155px;
+    padding-left: 61px ;
+    padding-right: 58px;
+    background-color:#eaebeb; 
+
+
+/*--------------privacy----------*/
+
+}
+.cut{
+    width: 100px;
+    height: 30px;
+    
+}
+.privacy-note{
+    width: 100%;
+    height:127.39px;
+    background-color:#eaebeb; 
+    padding-top: 39px;
+    padding-left: 25px;
+    padding-right: 20px;
+
+}
+.privacy-note a{
+    text-decoration: none;
+    color: red;
+    font-family: Roboto,sans-serif;
+    
+
+}
+#privacy-p{
+    color: #7f7f7f;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+.privacy-note p{
+    color: #7f7f7f;
+    font-size: 12px;
+    margin-top: 6px;
+    font-family: Roboto,sans-serif;
+    line-height: 17px;
+}
+
+/*--------sub1-foooter-----*/
+
+.sub1-footer{
+    display: flex;
+    width: 100%;
+    height: 83px;
+    background-color: #313035;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.sub1-footer img{
+    width: 34px;
+    height: 34px;
+    margin-right: -240px;
+    margin-left: -97px;
+
+}
+#list-your-show{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: Roboto,sans-serif;
+    
+}
+.sub1-footer .para{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: -238px;
+}
+.sub1-footer .btn{
+    width: 143.4px;
+    height: 39px;
+    background-color: #EC5E71;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    margin-right: -81px;
+}
+
+/*------------sub-footer2-----*/
+
+.sub2-footer{
+    width: 100%;
+    height: 74px;
+    background-color: #404043;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub2-footer img{
+    width: 50px;
+    height: 50px;
+}
+
+/*-------------sub-footer3----*/
+
+.sub3-footer{
+    width: 100%;
+    height: 38px;
+    background-color: #404043;
+    display: flex;
+    justify-content: space-around;
+}
+.sub3-footer p{
+    color: #BCC0C4BD;
+    font-size: 11px;
+    font-family: Robobto,sans-serif;
+    margin-left: 37px;
+    cursor: default;
+}
+
+
+
+
+/*---------------footer--------*/
+
+.foot{
+    width: 100%;
+    height: 264px;
+    background-color: #333338;
+}
+.foot1{
+    width: 100%;
+    height: 125px;
+    padding-top: 35px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo-svg {
+    cursor: pointer;
+}
+.foot2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.foot2 a{
+    margin-right: 22px;
+   
+}
+
+.btn-facebook, .btn-twitter{
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    color: #333338;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: grey;
+
+}
+.btn-youtube{
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    color: #333338;
+    padding-left: 6px;
+    padding-top: 5px;
+    background-color:rgb(102, 102, 102);;
+}
+.btn-instagram{
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    color: #333338;
+    padding-left: 8px;
+    padding-top: 5px;
+    background-color: grey;  
+}
+.btn-pinterest{
+    font-size: 25px;
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    color: #333338;
+    padding-left: 8px;
+    padding-top: 5px;
+    background-color: grey;  
+}
+
+.btn-facebook:hover{
+    background-color: snow;
+}
+.btn-pinterest:hover{
+    background-color: snow;
+}
+.btn-instagram:hover{
+    background-color: snow;
+}
+.btn-youtube:hover{
+    background-color: snow;
+}
+.btn-twitter:hover{
+    background-color: snow;
+}
+
+
+/*-----------------footer3--------*/
+.foot3{
+    width: 100%;
+    height: 99px;
+    padding-top: 20px;
+}
+#copy-right{
+    text-align: center;
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #666666;
+    cursor: default;
+}
+#content{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #666666;
+    margin-left: 20px;
+    text-align: center;
+    cursor: default;
+}
+
+
+
